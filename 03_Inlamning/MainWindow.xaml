@@ -22,7 +22,7 @@
 
         <StackPanel Grid.Column="0">
             <Button Background="Transparent" Padding="8" Content="Ny Kund" Command="{Binding CreateCustomerViewCommand}"  />
-            <Button Background="Transparent" Padding="8" Content="Kund" Command="{Binding CustomersViewCommand}" />
+            <Button Background="Transparent" Padding="8" Content="Kunder" Command="{Binding CustomersViewCommand}" />
             <Button Background="Transparent" Padding="8" Content="Nytt Ärende" Command="{Binding CreateErrandViewCommand}"  />
             <Button Background="Transparent" Padding="8" Content="Ärenden" Command="{Binding ErrandsViewCommand}"  />
         </StackPanel> 

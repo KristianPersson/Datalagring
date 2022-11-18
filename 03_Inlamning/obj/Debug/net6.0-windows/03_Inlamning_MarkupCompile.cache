@@ -8,13 +8,13 @@ C:\WIN21\Datalagring\03_Inlamning\03_Inlamning\03_Inlamning\obj\Debug\net6.0-win
 _03_Inlamning
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\WIN21\Datalagring\03_Inlamning\03_Inlamning\03_Inlamning\App.xaml
 5-1084627605
 
-191505714019
-214-576692427
+26-655928807
+428-1153384854
 MainWindow.xaml;Views\CreateCustomerView.xaml;Views\CreateErrandView.xaml;Views\CustomersView.xaml;Views\ErrandsView.xaml;
 
-False
+True
 

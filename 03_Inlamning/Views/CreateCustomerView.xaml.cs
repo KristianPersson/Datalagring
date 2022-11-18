@@ -24,5 +24,10 @@ namespace _03_Inlamning.Views
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            /// Lägg till kund
+        }
     }
 }

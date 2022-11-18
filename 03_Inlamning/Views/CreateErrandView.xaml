@@ -14,6 +14,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
@@ -46,7 +47,7 @@
             <Label Content="Status på ärendet" Margin="0 0 26 0"/>
             <TextBox x:Name="tbErrandState" Padding="5" Width="300" />
         </StackPanel>
-
+        <Button Grid.Row="6" Grid.Column="1" HorizontalAlignment="Center" Content="Lägg till ärende" Margin="10" Click="Button_Click"/>
 
     </Grid>
 </UserControl>
