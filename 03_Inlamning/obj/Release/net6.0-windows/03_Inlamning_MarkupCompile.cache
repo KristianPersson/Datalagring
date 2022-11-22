@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\WIN21\Datalagring\03_Inlamning\03_Inlamning\03_Inlamning\obj\Release\net6.0-windows\
+C:\Users\KPKri\source\repos\KristianPersson\Datalagring\03_Inlamning\obj\Release\net6.0-windows\
 _03_Inlamning
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\WIN21\Datalagring\03_Inlamning\03_Inlamning\03_Inlamning\App.xaml
+C:\Users\KPKri\source\repos\KristianPersson\Datalagring\03_Inlamning\App.xaml
 5-1084627605
 
-191505714019
-214-576692427
+21-1060450814
+2141493134168
 MainWindow.xaml;Views\CreateCustomerView.xaml;Views\CreateErrandView.xaml;Views\CustomersView.xaml;Views\ErrandsView.xaml;
 
 True

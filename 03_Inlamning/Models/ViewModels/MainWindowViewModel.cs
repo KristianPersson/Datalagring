@@ -7,7 +7,7 @@ using _03_Inlamning.Helpers;
 
 namespace _03_Inlamning.Models.ViewModels
 {
-    internal class MainWindowViewModel : ObservableObject
+    public class MainWindowViewModel : ObservableObject
     {
         public RelayCommand CustomersViewCommand { get; set; }
         public RelayCommand CreateCustomerViewCommand { get; set;}

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _03_Inlamning.Models.ViewModels
 {
-    internal class CustomersViewModel
+    public class CustomersViewModel
     {
 
 

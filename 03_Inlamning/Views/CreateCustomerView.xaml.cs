@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using _01_Inlamning.Models;
+using _03_Inlamning.Models;
+using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace _03_Inlamning.Views
 {
@@ -27,7 +18,24 @@ namespace _03_Inlamning.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            /// Lägg till kund
+            var customer = new Customer
+            {
+                City = tbCity.Text,
+                Email = tbEmail.Text,
+                FirstName = tbFirstName.Text,
+                LastName = tbLastName.Text,
+                PostalCode = int.Parse(tbPostalCode.Text),
+                PhoneNumber = int.Parse(tbPhone.Text),
+                StreetNumber = int.Parse(tbStreetNumber.Text),
+                StreetName = tbStreetName.Text,
+            };
+
+            using (var context = new SqlContext())
+            {
+                context.Customers.Add(customer);
+                context.SaveChanges();
+            }
+
         }
     }
 }

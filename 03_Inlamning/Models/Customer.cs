@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace _01_Inlamning.Models
 {
     [Index(nameof(Email), IsUnique = true)]
-    internal class Customer
+    public class Customer
     {
      
         
@@ -34,11 +34,9 @@ namespace _01_Inlamning.Models
         public string StreetName { get; set; } = null!;
 
         [Required]
-        [StringLength(5)]
         public int StreetNumber { get; set; }
 
         [Required]
-        [StringLength(6)]
         public int PostalCode { get; set; }
 
         [Required]
@@ -46,7 +44,6 @@ namespace _01_Inlamning.Models
         public string City { get; set; } = null!;
 
         [Required]
-        [StringLength(10)]
         public int PhoneNumber { get; set; }
 
     }

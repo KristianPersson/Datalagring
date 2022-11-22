@@ -1864,11 +1864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WIN21\\Datalagring\\03_Inlamning\\03_Inlamning\\03_Inlamning\\03_Inlamning.csproj",
+      "projectUniqueName": "C:\\Users\\KPKri\\Source\\Repos\\KristianPersson\\Datalagring\\03_Inlamning\\03_Inlamning.csproj",
       "projectName": "03_Inlamning",
-      "projectPath": "C:\\WIN21\\Datalagring\\03_Inlamning\\03_Inlamning\\03_Inlamning\\03_Inlamning.csproj",
+      "projectPath": "C:\\Users\\KPKri\\Source\\Repos\\KristianPersson\\Datalagring\\03_Inlamning\\03_Inlamning.csproj",
       "packagesPath": "C:\\Users\\KPKri\\.nuget\\packages\\",
-      "outputPath": "C:\\WIN21\\Datalagring\\03_Inlamning\\03_Inlamning\\03_Inlamning\\obj\\",
+      "outputPath": "C:\\Users\\KPKri\\Source\\Repos\\KristianPersson\\Datalagring\\03_Inlamning\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KPKri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1926,7 +1926,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

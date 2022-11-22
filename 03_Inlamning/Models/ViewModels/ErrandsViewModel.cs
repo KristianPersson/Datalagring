@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03_Inlamning.Models.ViewModels
 {
-    internal class ErrandsViewModel
+    public class ErrandsViewModel
     {
     }
 }

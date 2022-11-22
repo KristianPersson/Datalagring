@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace _03_Inlamning.Models
 {
-    internal class SqlContext : DbContext
+    public class SqlContext : DbContext
     {
         public SqlContext()
         {
@@ -25,7 +25,7 @@ namespace _03_Inlamning.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\KPKri\OneDrive\Documents\sql_db.mdf;Integrated Security=True;Connect Timeout=30");
         }
 
     }
