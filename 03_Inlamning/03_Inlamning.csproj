@@ -9,6 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Services\**" />
+    <Compile Remove="Templates\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="Templates\**" />
+    <None Remove="Services\**" />
+    <None Remove="Templates\**" />
+    <Page Remove="Services\**" />
+    <Page Remove="Templates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
       <PrivateAssets>all</PrivateAssets>
@@ -18,8 +29,6 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Templates\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

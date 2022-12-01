@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\03_Inlamning",
+    "\\03_Inlamning\\Views"
   ],
+  "SelectedNode": "\\03_Inlamning\\Views\\ErrandsView.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

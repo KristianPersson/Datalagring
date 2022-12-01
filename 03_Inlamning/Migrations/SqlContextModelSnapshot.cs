@@ -71,6 +71,40 @@ namespace _03_Inlamning.Migrations
 
                     b.ToTable("Customers");
                 });
+
+            modelBuilder.Entity("_03_Inlamning.Models.Errand", b =>
+                {
+                    b.Property<int>("ErrandId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ErrandId"), 1L, 1);
+
+                    b.Property<int>("ChangeErrandDate")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CreateErrandDate")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ErrandDescription")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("ErrandName")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("ErrandStatus")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("ErrandId");
+
+                    b.ToTable("Errands");
+                });
 #pragma warning restore 612, 618
         }
     }

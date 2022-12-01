@@ -120,7 +120,7 @@ C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\n
 C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\net6.0-windows\03_Inlamning.csproj.CoreCompileInputs.cache
 C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\net6.0-windows\03_Inlamning.csproj.CopyComplete
 C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\net6.0-windows\03_Inlamning.dll
-C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\net6.0-windows\refint\03_Inlamning.dll
 C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\net6.0-windows\03_Inlamning.pdb
 C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\net6.0-windows\03_Inlamning.genruntimeconfig.cache
 C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\obj\Debug\net6.0-windows\ref\03_Inlamning.dll
+C:\Users\KPKri\Source\Repos\KristianPersson\Datalagring\03_Inlamning\bin\Debug\net6.0-windows\ref\03_Inlamning.dll

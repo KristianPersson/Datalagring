@@ -5,12 +5,10 @@ using System.Windows.Controls;
 
 namespace _03_Inlamning.Views
 {
-    /// <summary>
-    /// Interaction logic for CustomersView.xaml
-    /// </summary>
+
     public partial class CustomersView : UserControl
     {
-        private SqlContext _context;
+        private readonly SqlContext _context;
         public CustomersView()
         {
             InitializeComponent();

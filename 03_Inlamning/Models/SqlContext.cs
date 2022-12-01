@@ -20,12 +20,15 @@ namespace _03_Inlamning.Models
 
         }
 
+
+        public virtual DbSet<Errand> Errands { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\KPKri\OneDrive\Documents\sql_db.mdf;Integrated Security=True;Connect Timeout=30");
+                optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\KPKri\source\repos\KristianPersson\Datalagring\03_Inlamning\Data\sql_db.mdf;Integrated Security=True;Connect Timeout=30");
         }
 
     }

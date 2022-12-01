@@ -11,7 +11,6 @@ namespace _01_Inlamning.Models
     [Index(nameof(Email), IsUnique = true)]
     public class Customer
     {
-     
         
         [Key]
         public int Id { get; set; }
